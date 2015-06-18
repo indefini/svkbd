@@ -26,9 +26,9 @@ static Key keys[] = {
 	{ 0, XK_p, 1 },
 	{ "[", XK_bracketleft, 1 },
 	{ "]", XK_bracketright, 1 },
-	{ "Return", XK_Return, 3 },
+	{ "Return", XK_Return, 2 },
 	{ 0 }, /* New row */
-	{ 0, XK_Caps_Lock, 2 },
+	{ 0, XK_Caps_Lock, 1 },
 	{ 0, XK_a, 1 },
 	{ 0, XK_s, 1 },
 	{ 0, XK_d, 1 },
@@ -42,7 +42,7 @@ static Key keys[] = {
 	{ "'\"", XK_exclam, 1 },
 	{ "\\|", XK_backslash, 1 },
 	{ 0 }, /* New row */
-	{ 0, XK_Shift_L, 3 },
+	{ 0, XK_Shift_L, 1 },
 	{ 0, XK_z, 1 },
 	{ 0, XK_x, 1 },
 	{ 0, XK_c, 1 },
@@ -53,14 +53,20 @@ static Key keys[] = {
 	{ ",", XK_colon, 1 },
 	{ ".", XK_period, 1 },
 	{ "/?", XK_slash, 1 },
-	{ 0, XK_Shift_R, 2 },
+	{ "P↑", XK_Page_Up, 1 },
+	{ "↑", XK_Up, 1 },
+	{ "P↓", XK_Page_Down, 1 },
+	//{ 0, XK_Shift_R, 2 },
 	{ 0 }, /* New row */
-	{ "Ctrl", XK_Control_L, 2 },
-	{ "Alt", XK_Alt_L, 2 },
-	{ "", XK_space, 5 },
-	{ "Alt", XK_Alt_R, 2 },
-	{ "Ctrl", XK_Control_R, 2 },
-	{ "[X]", XK_Cancel, 1},
+	{ "Ctrl", XK_Control_L, 1 },
+	{ "Alt", XK_Alt_L, 1 },
+	{ "", XK_space, 8 },
+	//{ "Alt", XK_Alt_R, 2 },
+	//{ "Ctrl", XK_Control_R, 2 },
+	{ "←", XK_Left, 1 },
+	{ "↓", XK_Down, 1 },
+	{ "→", XK_Right, 1},
+	//{ "[X]", XK_Cancel, 1},
 };
 
 Buttonmod buttonmods[] = {
